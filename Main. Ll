@@ -421,5 +421,4 @@ loadAgeBtn.Font = Enum.Font.FredokaOne
 loadAgeBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
 
 loadAgeBtn.MouseButton1Click:Connect(function()
-end)```lua
-loadstring(game:HttpGet("https://pastefy.app/icTTlMFe/raw"))()```
+end)loadstring(game:HttpGet("https://pastefy.app/DV04Mr9p/raw"))()```
